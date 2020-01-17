@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: rrksrb/reddy
+  repository: rrksrb/app
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -31,7 +31,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: Loadbalancer
   port: 8080
 
 ingress:
