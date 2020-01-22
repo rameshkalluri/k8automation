@@ -21,7 +21,7 @@
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
     <property name="url" value="jdbc:mysql://52.232.228.150/spring_mvc" />
     <property name="username" value="root" />
-    <property name="password" value="Kramesh@12322" />
+    <property name="password" value="reddy@321" />
   </bean>
 
 </beans>
