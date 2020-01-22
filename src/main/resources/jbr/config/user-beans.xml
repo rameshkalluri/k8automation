@@ -20,8 +20,8 @@
   <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
     <property name="url" value="jdbc:mysql://mysql-service:3306/spring_mvc" />
-    <property name="username" value="reddy" />
-    <property name="password" value="Kmahesh@143" />
+    <property name="username" value="root" />
+    <property name="password" value="root@321" />
   </bean>
 
 </beans>
